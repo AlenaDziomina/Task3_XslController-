@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Product SYSTEM "products.dtd">
+
+<epam:Product xmlns:epam="http://www.epam.com/products"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.epam.com/products products.xsd">
+
+	<Category name="Auto">
+		<Subcategory name="Sedan">
+			<good>
+				<producer>Ford</producer>
+				<model>Mondeo</model>
+				<date_of_issue>29-10-2011</date_of_issue>
+				<color>Blue</color>
+				<price>15.7</price>
+			</good>
+			<good>
+				<producer>Citroen</producer>
+				<model>Xantia</model>
+				<date_of_issue>24-12-2012</date_of_issue>
+				<color>Black</color>
+				<not-in-stock />
+			</good>
+			<good>
+				<producer>Nissan</producer>
+				<model>Primera</model>
+				<date_of_issue>12-10-2001</date_of_issue>
+				<color>Orange</color>
+				<price>5.3</price>
+			</good>
+		</Subcategory>
+        <Subcategory name="Hatchback">
+            <good>
+                <producer>Toyota</producer>
+                <model>Corolla</model>
+                <date_of_issue>04-11-2013</date_of_issue>
+                <color>Red</color>
+                <not-in-stock/>
+            </good>
+        </Subcategory>
+		<Subcategory name="Miniven">
+			<good>
+				<producer>Nissan</producer>
+				<model>Note</model>
+				<date_of_issue>03-01-2007</date_of_issue>
+				<color>White</color>
+				<price>13</price>
+			</good>
+		</Subcategory>
+        <Subcategory name="SUV">
+            <good>
+                <producer>Toyota</producer>
+                <model>RAV4</model>
+                <date_of_issue>01-05-2012</date_of_issue>
+                <color>Black</color>
+                <price>21.5</price>
+            </good>
+            <good>
+               <producer>Toyota</producer>
+                <model>LandCruiser</model>
+                <date_of_issue>05-09-2014</date_of_issue>
+                <color>Grey</color>
+                <price>75</price>
+            </good>
+        </Subcategory>
+	</Category>
+
+	<Category name="Moto">
+		<Subcategory name="Classic">
+			<good>
+				<producer>Honda</producer>
+				<model>NTV650</model>
+				<date_of_issue>07-08-2012</date_of_issue>
+				<color>Pink</color>
+				<not-in-stock />
+			</good>
+			<good>
+				<producer>Suzuki</producer>
+				<model>Savage650</model>
+				<date_of_issue>15-11-2010</date_of_issue>
+				<color>Blue</color>
+				<price>3.4</price>
+			</good>
+		</Subcategory>
+		<Subcategory name="Sport">
+			<good>
+				<producer>Suzuki</producer>
+				<model>GSX600R</model>
+				<date_of_issue>01-09-2012</date_of_issue>
+				<color>White</color>
+				<not-in-stock />
+			</good>
+			<good>
+				<producer>Suzuki</producer>
+				<model>GSXR1</model>
+				<date_of_issue>23-10-2014</date_of_issue>
+				<color>White</color>
+				<price>14.8</price>
+			</good>
+            <good>
+                <producer>Kawasaki</producer>
+                <model>Ninja</model>
+                <date_of_issue>06-06-2012</date_of_issue>
+                <color>Green</color>
+                <price>12.7</price>
+            </good>
+		</Subcategory>
+        <Subcategory name="Enduro">
+            <good>
+                <producer>Kawasaki</producer>
+                <model>KLE</model>
+                <date_of_issue>04-05-2007</date_of_issue>
+                <color>Red</color>
+                <price>4.5</price>
+            </good>
+            <good>
+                <producer>Kawasaki</producer>
+                <model>KLR</model>
+                <date_of_issue>08-09-2009</date_of_issue>
+                <color>Orange</color>
+                <price>4</price>
+            </good>
+        </Subcategory>
+	</Category>
+</epam:Product>
